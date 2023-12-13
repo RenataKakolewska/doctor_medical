@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.upper_nav {
+    background-color: green;
+    margin-top: 7px;
+    min-height: 40px
+}
+
+.upper_nav ul {
+    list-style-type: none;
+    text-decoration: none;
+    min-height: 20px;
+
+}
+
+.upper_nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.num,
+.email {
+    float: left;
+    margin-right: 10px;
+}
+
+.facebook,
+.insta,
+.telegram {
+    float: right;
+    margin-right: 10px;
+}
+
+.upper_nav ul li {
+    font-size: 25px;
+    margin-top: 3px;
+
+}
+
+.num {
+    margin-left: 50px;
+
+}
+
+.facebook {
+    margin-right: 50px;
+}
+
+
+.nav img {
+    float: left;
+    width: 100px;
+    height: 70px;
+    margin-left: 150px;
+}
+.nav ul li {
+    
+    list-style-type: none;
+    margin-right: 70px;
+    float:right;
+    margin-top: 25px;
+    
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all 1s ease;
+    
+}
+.nav ul li a:hover{
+color: blueviolet;
+/* font-weight: bold; */
+font-size: 20px;
+}
+.main{
+    margin-top: 90px;
+    background-image: url('../image/doctor.jpg');
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+    
+    padding-top: 50px;
+    padding-left: 200px;
+    height: 700px;
+}
+.main h1{
+    font-size: 50px;
+
+}
+ .main p{
+    margin-top: 10px;
+ }
+ .grn{
+    padding: 5px;
+    background-color: brown;
+    color: palevioletred;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+ }
+
+ .wht{
+    padding: 5px;
+    background-color: aquamarine;
+    color: green;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+ }
